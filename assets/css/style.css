@@ -1,0 +1,94 @@
+body{
+	width:100%;
+	margin: -1pt;
+	background-image: url(https://static.pexels.com/photos/7374/startup-photos.jpg);
+	background-size:100%;
+}
+
+/*NAV BAR*/
+
+.nav-bar{
+	padding: 15;
+	font-family: 'Francois One', sans-serif;
+	font-size: 30pt;
+	background-color: rgba(120,81,178,1);;
+	color: white;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	height:40pt;
+}
+
+.nav{
+	position: absolute;
+	right:40;
+	top:15;
+}
+
+#nav-buttons{
+	margin-left: 15pt;
+	display: inline-block;
+}
+
+/*BACKGROUNDS*/
+
+/*BODY*/
+#body{
+	width: 100%;
+	position: fixed;
+	top:60pt;
+	margin: :0;
+}
+
+.section{
+	height:50%;
+	text-align:left;
+	overflow: hidden;
+	padding: 20pt;
+	color:white;
+}
+
+b{
+	font-weight: 3000;
+}
+
+#heading{
+	font-family: 'Francois One', sans-serif;
+	font-size: 25pt;
+	padding: 15pt;
+	position: relative;
+
+}
+
+#tagline{
+	font-family: 'Arvo', serif;
+	font-size: 35pt;
+	padding: 30pt;
+	position: relative;
+}
+
+#content{
+	font-family: 'Arvo', serif;
+	font-size: 30pt;
+	padding:30pt;
+	position: relative;
+	top:-30pt;
+	z-index: 1;
+}
+
+#body a{
+	display: inline-block;
+	background-color: black;
+	padding: 10;
+	text-decoration: none;
+	color: white;
+}
+	/*about*/
+	#about{
+		background: rgba(0,0,0,.6);
+
+	}
+	/*sign-up*/
+	#sign-up{
+		background: rgba(28,138,210,.5);
+	}
